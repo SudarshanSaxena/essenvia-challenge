@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-8">
+      <form action="" [formGroup]="docText">
+        <ckeditor
+          [editor]="Editor"
+          [config]="config"
+          formControlName="text"
+        ></ckeditor>
+      </form>
+    </div>
+  </div>
+</div>
+<button type="submit" (click)="submitHandler()">Submit</button>
+<button (click)="revertVersion()">Return to previous version</button>

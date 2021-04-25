@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hackerearth-docs-hackathon"
+    }
+  },
+  "defaultProject": "hackerearth-docs-hackathon",
+  "cli": {
+    "analytics": false
+  }
 }
